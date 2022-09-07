@@ -1,0 +1,35 @@
+#text-output{
+    height: 20vh;
+    width:49vh;
+    border: 1px solid black;
+}
+#container{
+    height: 50vh;
+    width: 50vh;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-self: center;
+}
+.btn{
+    height: 25%;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    border:.5px solid grey;
+    background-color: whitesmoke;
+}
+.btn:nth-child(4n){
+   background-color: rgba(196, 78, 78, 0.859);
+}
+.btn:hover{
+    background-color: lightgrey;
+}
+.btn,span{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    align-self: center;
+}
